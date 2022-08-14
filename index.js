@@ -33,10 +33,7 @@ closebtn.addEventListener("click", () => {
 })
 
 
-btn2.addEventListener('click',()=>{
 
-    document.hidden.style.insertAdjacentHTML('afterend', dashboard);
-})
 
 
 
