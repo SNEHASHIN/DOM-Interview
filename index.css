@@ -1,0 +1,128 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 236, 236);
+    height:35px;
+}
+.colors{
+    display:flex;
+    justify-content: space-between;
+    margin: 3px;
+    background-color: rgba(177, 165, 165, 0.918);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.all{
+    height:1rem;
+    width:2rem;
+    margin:5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* background-color: rgb(71, 143, 143); */
+    font-size: 10px;
+     text-align: center; 
+    /* padding: 2px; */
+}
+
+.red{
+    height:1rem;
+    width:2rem;
+    background-color: red;
+    margin:5px;
+    border-radius: 5px;
+    
+}
+.yellow{
+    height:1rem;
+    width:2rem;
+    background-color: yellow;
+    margin:5px;
+    border-radius: 5px;
+}
+
+.blue{
+    height:1rem;
+    width:2rem;
+    background-color: blue;
+    margin:5px;
+    border-radius: 5px;
+}
+.black{
+    height:1rem;
+    width:2rem;
+    background-color: black;
+    margin:5px;
+    border-radius: 5px;
+}
+.checked{
+    height: 1rem;
+    width: 2rem;
+    margin: 5px;
+    border-radius: 5px;
+}
+.closebtn{
+    margin-left: 260px;
+}
+
+.task {
+    background-color: orange;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid  rgb(142, 233, 233);
+    margin-right: 20px;
+}
+
+.dashboard{
+    height:200px;
+    width:300px;
+    background-color: rgb(135, 236, 236);
+    margin:20px;
+}
+
+/* .textarea{
+    height:100px;
+    width:200px;
+} */
+.theme{
+    display: grid;
+    /* justify-content: space-between; */
+    /* background-color: aliceb; */
+    margin-left: 250px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.red1{
+    height:1.5rem;
+    width:2rem;
+    background-color:red;
+    margin:5px
+    /* margin-left: 250px; */
+}
+.yellow1{
+    height:1.5rem;
+    width:2rem;
+    background-color:yellow;
+    margin:5px
+    /* margin-left: 250px; */
+}
+
+.blue1{
+    height:1.5rem;
+    width:2rem;
+    background-color:blue;
+    margin:5px
+    /* margin-left: 250px; */
+}
+.black1{
+    height:1.5rem;
+    width:2rem;
+    background-color:black;
+    margin:5px
+    /* margin-left: 250px; */
+}
