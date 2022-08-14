@@ -6,6 +6,7 @@ const blue1 = document.getElementsByClassName("blue1")[0]
 const black1 = document.getElementsByClassName("black1")[0]
 const textarea = document.getElementsByClassName("textarea")[0]
 const done = document.getElementsByClassName("btn2")[0]
+const x=document.getElementsByClassName("closebtn")[0]
 createBtn.addEventListener("click", () => {
     hidden.style.display="block";
 })
@@ -27,9 +28,15 @@ done.addEventListener("click", () =>{
 })
 
 closebtn.addEventListener("click", () => {
-    e.target.parentElement.remove();
+    // e.target.parentElement.remove();
+    hidden.style.display="remove";
 })
 
+
+btn2.addEventListener('click',()=>{
+
+    document.hidden.style.insertAdjacentHTML('afterend', dashboard);
+})
 
 
 
